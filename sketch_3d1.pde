@@ -12,7 +12,8 @@ void draw(){
   translate(width / 2, height /2);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
-  //translate(x, y , 0);
- // box(100);
+  fill(255, 0, 0);
+  translate(x, y , 0);
+  box(100);
  //sphere(100);
 }
